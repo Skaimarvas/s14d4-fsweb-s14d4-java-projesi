@@ -9,6 +9,18 @@ public abstract class ProductForSale {
         this.description = description;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     public int getSalesPrice(int quantity){
         return quantity * price;
     }
